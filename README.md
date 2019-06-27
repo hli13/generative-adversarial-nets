@@ -1,88 +1,33 @@
-# Project Title
+# Image Gneration with Generative Adversarial Networks
 
-One Paragraph of project description goes here
+This project consists of training and generating images with Generative Adversarial Networks (GANs) based on the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html). The discriminator/generator pair is trained utilizing Auxillary Classifier GAN (ACGAN) as well as Wasserstein GAN. Realistic looking images are generated from the trained  model.
 
-## Getting Started
+In addition, to gain more insigts on how CNN works, synthetic images that maximizes the class output and maximizes a particular layer of features are generated using feature visualization techniques while we train the discriminator.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
+## Dependencies
 
 ```
-Give examples
+numpy==1.16.4
+h5py==2.9.0
+matplotlib==3.1.0
 ```
 
-### Installing
+## Dataset
 
-A step by step series of examples that tell you how to get a development env running
+The [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) has 60,000 32x32 color images in 10 classes. 50,000 of them are labeled for training and 10,000 images for testing.
 
-Say what the step will be
+## Implementation
 
-```
-Give the example
-```
+TBD
 
-And repeat
+## Hyerparameters
 
-```
-until finished
-```
+TBD
 
-End with an example of getting some data out of the system or using it for a little demo
+## Running the model
 
-## Running the tests
+TBD
 
-Explain how to run the automated tests for this system
+## Result
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+TBD
