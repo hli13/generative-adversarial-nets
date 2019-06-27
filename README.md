@@ -8,8 +8,9 @@ In addition, to gain more insigts on how CNN works, synthetic images that maximi
 
 ```
 numpy==1.16.4
-h5py==2.9.0
 matplotlib==3.1.0
+torch==0.4.1
+torchvision==0.2.1
 ```
 
 ## Dataset
