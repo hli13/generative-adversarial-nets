@@ -1,5 +1,7 @@
 # Image Gneration with Generative Adversarial Networks
 
+> Code refactoring is in progress
+
 This project consists of training and generating images with Generative Adversarial Networks (GANs) based on the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html). The discriminator/generator pair is trained utilizing Auxillary Classifier GAN (ACGAN) as well as Wasserstein GAN. Realistic looking images are generated from the trained  model.
 
 In addition, to gain more insigts on how CNN works, synthetic images that maximizes the class output and maximizes a particular layer of features are generated using feature visualization techniques while we train the discriminator.
